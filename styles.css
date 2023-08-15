@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #E48586;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 5px;
+}
+
+.presentation {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+.logo {
+    width: 50px;
+    padding-left: 10px;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    color: #ffe65d;
+}
+
+h3 {
+    color: #916DB3;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+hr {
+    background: #916DB3;
+}
+
+p {
+    font-family: 'Urbanist', sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 13px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 13px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #FFFAD7;
+}
+
+.banner {
+    background-image: url(images/dream_hhep6mkeklr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 70vh;
+    margin: 0;
+    color: #751178;
+    font-weight: bolder;
+}
+
+.banner h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    color: #F79327;
+}
+
+.info {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60vw;
+    padding: 15px 20px 15px 20px;
+    margin: 80px auto 50px auto;
+    background-color: rgba(214, 206, 206, 0.425);
+    border: 1px solid #751178;
+    border-radius: 8px;
+}
+
+button {
+    background: #F79327;
+    border: 1px solid #F79327;
+    color:antiquewhite;
+    padding: 4px 10px 4px 10px;
+    margin-top: 15px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.content h2  {
+    color: #872a89;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+    background-color: #E4A5FF;
+}
+
+.flavors {
+    padding: 15px;
+}
+
+.flavors img {
+    height: 60vh;
+    margin: 20px;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding:20px 15px 20px 15px;
+    margin: 10px auto 0 auto;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding:20px 15px 20px 15px;
+    margin: 10px auto 0 auto;
+}
+
+.description {
+    margin-top: 40px;
+}
+
+.promotion {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color:#f78d1d;
+    width: 75vw;
+    background: #ffe75da4;
+    padding: 20px;
+    margin: 20px auto 70px auto;
+    border-radius: 5px;
+    border: 3px solid #F79327;
+    transition: ease all 1s;
+}
+
+.promotion:hover {
+    background: #FFE4A7;
+}
+
+.promotion img {
+    height: 40vh;
+}
+
+.total {
+    margin-top: 40px;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    background: #E48586;
+    color: #FFFAD7;
+    padding: 12px;
+}
+
+footer h4 {
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+footer ul {
+    display: flex;
+    gap: 25px;
+    color: #FFFAD7;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+    font-size: 20px;
+}
+
+footer p {
+    text-align: center;
+}
